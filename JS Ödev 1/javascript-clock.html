@@ -6,31 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kodluyoruz Javascript Saat Ödevi</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-
-        }
-
-        body {
-            background-color: #12123D;
-            color: #D4AA00;
-            padding: 60px;
-            text-align: center;
-            margin-top: 200px;
-            font-size: xx-large;
-            border: 1px solid #D4AA00;
-            margin-left: auto;
-            margin-right: auto;
-            width: 600px;
-            border-radius: 20px 100px 20px 100px;
-            box-shadow: 2px 2px 2px 2px #D4AA00;
-            
-        }
-       
-    </style>
+   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
@@ -43,29 +19,7 @@
     </p>
     <p>Kodluyoruz Frontend Web Development Patikası'nın
         Javascript bölümü 1.Ödevim.</p>
-    <script>
-        let Username = prompt("Lütfen İsminiz Giriniz:");
-        let Username_html = document.querySelector("#UserName");
-
-        if (Username.length > 2) {
-            Username_html.innerHTML = ` ${Username}  `
-        } else {
-            let Username = prompt("Lütfen Gecerli Bir İsminiz Giriniz:");
-
-        }
-
-        function DateHours() {
-
-            let date = new Date().toDateString();
-            document.getElementById('tarih').innerHTML = date;
-
-            let hour = new Date().getHours();
-            let minutes = new Date().getMinutes();
-            let secound = new Date().getSeconds();
-            document.getElementById('hours').innerHTML = hour + ":" + minutes+":"+secound;
-        }
-        setInterval(DateHours,1000);
-    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>

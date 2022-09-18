@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #12123D;
+    color: #D4AA00;
+    padding: 60px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: xx-large;
+    border: 1px solid #D4AA00;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    border-radius: 20px 100px 20px 100px;
+    box-shadow: 2px 2px 2px 2px #D4AA00;
+    
+}
